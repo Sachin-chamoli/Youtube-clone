@@ -1,0 +1,26 @@
+.recommendedVideos{
+    flex: 0.8;
+    /* background-color: #f9f9f9; */
+    padding: 20px 20px;
+    padding-bottom: 0;
+}
+
+.recommendedVideos > p{
+    margin-left: 5px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.recommendedVideos__videos{
+    display: flex;
+    flex-wrap: wrap ;
+}
+.loding{
+    height: 87vh;
+    flex: 0.8;
+}
+.lodingBar{
+    position: relative;
+    top: 40%;
+    left: 40%;
+}

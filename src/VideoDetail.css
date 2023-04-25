@@ -1,0 +1,26 @@
+.Details{
+    display: flex;
+
+}
+.Video{
+    flex: 0.7;
+    height: 80vh;
+    padding: 20px;
+    position: sticky;
+    top: 81px;
+}
+.react-player{
+    width: 100% !important;
+    height: 90% !important;
+}
+.RelatedVideos{
+    flex: 0.3;
+    display: flex;
+    justify-content: center;
+}
+
+.videoTitle{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+}
