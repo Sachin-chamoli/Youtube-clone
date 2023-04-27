@@ -47,7 +47,7 @@ getdata();
                     views={`${item.viewCount} views`}
                     channelImage={item.authorThumbnail && item.authorThumbnail[0].url}
                     videoId={item.videoId}
-                  />                       
+                  />  
                 })
         }
     </div>

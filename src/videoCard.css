@@ -35,3 +35,15 @@
     width: 30px !important;
     height: 30px !important;
 }
+
+@media screen and (max-width : 830px) {
+    .videoCard{
+        width: 250px;   
+    }
+}
+
+@media screen and (max-width : 430px) {
+    .videoCard{
+        width: 90%; 
+    }
+}

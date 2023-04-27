@@ -38,3 +38,9 @@
 .selected > .sidebarRow__title{
     font-weight: bold;
 }
+
+@media screen and (max-width : 830px) {
+    .sidebarRow__title{
+        font-size: 16px;
+    }
+}

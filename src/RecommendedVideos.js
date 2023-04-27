@@ -38,7 +38,7 @@ if(videos.length === 0){
 }
   return (
     <div className='recommendedVideos'>
-      <p>Recommended</p>
+      <p>Recommended Videos</p>
       <div className="recommendedVideos__videos">
         {  
                 videos.map((item,idx)=>{

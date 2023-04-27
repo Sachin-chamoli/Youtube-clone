@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./Sidebar.css"
 import SidebarRow from './SidebarRow'
-import { Checkroom, Code, ExpandMoreOutlined, FaceRetouchingNatural, FitnessCenter, Games, HistoryOutlined, Home, HomeOutlined, MusicNote, OndemandVideo,   School,   Sports,   SubscriptionsOutlined,  TheaterComedy,  ThumbUpAltOutlined, VideoLibraryOutlined,  WatchLaterOutlined, WhatshotOutlined } from '@mui/icons-material';
+import { Checkroom, Code,  FaceRetouchingNatural, FitnessCenter, Games, Home,  MusicNote,   School,   Sports,   TheaterComedy,  } from '@mui/icons-material';
 
 const categories = [
   {Icon: Home, title:"Home"},
@@ -21,7 +21,7 @@ const [selected , setSelected] = useState("Home")
     <div className='sidebar'>
         {
           categories.map((category) =>{
-            return  <SidebarRow  Icon={category.Icon} title={category.title} selected={selected} setSelected={setSelected}/>
+            return  <SidebarRow key={category.title}  Icon={category.Icon} title={category.title} selected={selected} setSelected={setSelected}/>
           })
         }
     </div>

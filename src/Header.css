@@ -40,11 +40,27 @@
     padding: 10px 14px;
 }
 
-.header__icons{
-    display: flex;
-    align-items: center;
-}
 
-.header__icon{
-    margin-right:8px;
+@media screen and (max-width : 430px) {
+
+
+    .header__logo{
+        height: 20px;
+        margin-left: 0;
+    }
+    .header__input{
+        width:65%;
+        margin: 0 10px;
+        
+    }
+    .header__input > input {
+        flex: 0.8;
+        font-size: 1rem;
+        padding: 7px 10px;
+
+    }
+    .header__inputButton{
+        padding: 2px 10px;
+    }
+    
 }

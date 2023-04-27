@@ -16,6 +16,7 @@
 .RelatedVideos{
     flex: 0.3;
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -23,4 +24,61 @@
     font-size: 20px;
     font-weight: 500;
     margin: 10px 0;
+}
+
+@media screen and (max-width:  830px) {
+    .Details{
+        display: flex;
+        flex-direction: column;
+    }
+    .Video{
+        height: 50vh;
+        flex: none;
+        top: 88px;
+        background-color: white;
+        z-index: 2;
+    }
+    .RelatedVideos{
+        flex: none;
+        margin-top: 20px;
+    }
+    .RelatedVideos div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .videoTitle{
+        font-size: 18px;
+    }
+    .videoChannel{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .Details{
+        display: flex;
+        flex-direction: column;
+    }
+    .Video{
+        height: 45vh;
+        flex: none;
+        top: 88px;
+        background-color: white;
+        z-index: 2;
+    }
+    .videoChannel{
+        font-size: 10px;
+    }
+    .react-player{
+        width: 100% !important;
+        height: 80% !important;
+    }
+    .videoTitle{
+        font-size: 14px;
+
+    }
+    .RelatedVideos{
+        flex: none;
+    }
 }

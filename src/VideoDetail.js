@@ -36,7 +36,7 @@ useEffect(()=>{
       <div className='Video'>
         <ReactPlayer url={`https://www.youtube.com/watch?v=${id}`} className="react-player" controls />
         <p className='videoTitle'>{details[0]?.snippet.title}</p>
-        <p>{details[0]?.snippet.channelTitle}</p>
+        <p className='videoChannel'>{details[0]?.snippet.channelTitle}</p>
         </div>
         <div className='RelatedVideos'>
     <RelatedVideos id={id}/>

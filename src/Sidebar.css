@@ -11,3 +11,17 @@
     background-color:lightgray;
     margin: 10px 0;
 }
+
+@media screen and (max-width : 430px) {
+    .sidebar{
+        height: 10px;
+        display: flex;
+        overflow-x: scroll;
+        background-color: white;
+        z-index: 2;
+    }
+    .sidebar::-webkit-scrollbar {
+        height: 0 !important;
+        width: 0 !important }
+
+}
